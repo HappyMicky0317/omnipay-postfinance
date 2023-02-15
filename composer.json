@@ -1,0 +1,37 @@
+{
+    "name": "bummzack/omnipay-postfinance",
+    "type": "library",
+    "description": "Postfinance Gateway for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "postfinance",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/bummzack/omnipay-postfinance",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Schmid",
+            "email": "bummzack@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Postfinance\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "^3.0",
+        "league/omnipay": "^3",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
